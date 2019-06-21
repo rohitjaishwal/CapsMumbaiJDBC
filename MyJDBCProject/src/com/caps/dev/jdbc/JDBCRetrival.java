@@ -19,7 +19,7 @@ public class JDBCRetrival {
 			System.out.println("Driver Loaded...");
 
 			//Get DB connection via driver
-			String url = "jdbc:mysql://localhost:3306/caps_mumbai"
+			String url = "jdbc:mysql://127.0.0.1:3306/caps_mumbai"
 					+ "?user=root&password=root";
 			conn =	DriverManager.getConnection(url);
 			System.out.println("Connection Established...");
